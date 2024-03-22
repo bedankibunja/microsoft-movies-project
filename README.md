@@ -43,6 +43,39 @@ Upon importing and reviewing the datasets, several data quality issues were iden
  Between 2010 and 2018, a thorough examination of genre popularity in the film industry showed people's preference. Drama films stood at the forefront, captivating audiences with their compelling narratives and relatable themes. Following closely behind, comedies consistently brought laughter to theatres, securing their place as the second most preferred genre. action-packed films, though thrilling and adrenaline-fueled, settled in third, while romance movies, with their heartwarming and often heart-wrenching tales, clinched the fourth spot. The ranking suggests a significant preference for story-driven genres, indicating a potential trend in audience desire to watch.
 ![Topranking](img/Topranking.png)
 
+RUNTIME AGAINST GENRE
+In the event that Microsoft ventures into the realm of film production and seeks to determine the optimal movie length, it could consider adopting a standard runtime, such as 107 minutes, as a conservative approach. I  targeted the runtimes for each genre and then finding the average runtime required and used a bar plot to visually present it
+![medianruntime](img/medainruntime.png)
+
+AVERAGE DOMESTIC GROSS FOR A STANDARD MOVIE
+I used a boxplot to plot the visual summary of the central tendancy.
+From the boxplot the average average domestic gross was 30,638,100.00
+![domesticgross](img/domesticgross.png)
+
+CORRELATION BETWEEN DOMESTIC GROSS AND PRODUCTION BUDGET
+To check the relationship between domestic gross and prduction profits is used a scatter plot with the line of best fit.
+Does this imply that the more money I put in for making a movie, the more the return?
+the slope is steep and positive which is an indication of a positive correlation between production budget and domestic gross. Higher budgets appear to have higher returns as observed from the few high budgets in the scatter plot.
+![productionvsprofits](img/productionvsprofits.png)
+
+# Conclusions
+From the finding in movie analysis achieved from the 2010 to 2018 datait is clear that genre of the movie plays a great role in the succes of a movie. drama and comedy are the leading genres in preference and revenue generation. tha average runtime for a movie is 107 minutes but the length is not a direct predictor of success. Howeve the relationship between dproduction budget and gross brings better return in profits.
+
+# Recommendation
+While Drama and Comedy have demonstrated robust performance, maintaining a diverse range of movie genres is essential to cater to varying audience preferences and minimize risks. When it comes to budget allocation, it's crucial to allocate resources wisely, prioritizing areas such as story quality, casting, and post-production. Although a higher budget often correlates with greater returns, it's imperative to ensure that funds are utilized effectively to maximize impact.
+
+To gain deeper insights into underperforming genres like romance, mystery, and music, conducting comprehensive market research is essential. Understanding the reasons behind their lackluster revenue generation can inform strategic decisions for future projects and help tailor content to better meet audience expectations.
+
+Additionally, given that movie runtime alone does not determine financial success, strategic marketing initiatives can significantly influence a movie's performance. By implementing effective marketing strategies, filmmakers can enhance visibility, attract audiences, and ultimately contribute to the success of their projects.
+
+
+
+
+
+
+
+
+
 
 
  

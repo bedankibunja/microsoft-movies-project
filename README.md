@@ -41,21 +41,27 @@ Upon importing and reviewing the datasets, several data quality issues were iden
  HIGHEST RATED BASED ON NUMBER OF VOTES AND HIGHEST RANK
  I ranked the data based on their number of votes and average ratings. By ranking them according to their ratings/votes, as seen in the highest_rated_domestic dataset, I was able to identify the top-performing genres at the box office between 2010 and 2018. To analyze these top genres effectively, I opted for a bar plot due to its ability to provide a clear visual representation of categorical data against a quantitative scale
  Between 2010 and 2018, a thorough examination of genre popularity in the film industry showed people's preference. Drama films stood at the forefront, captivating audiences with their compelling narratives and relatable themes. Following closely behind, comedies consistently brought laughter to theatres, securing their place as the second most preferred genre. action-packed films, though thrilling and adrenaline-fueled, settled in third, while romance movies, with their heartwarming and often heart-wrenching tales, clinched the fourth spot. The ranking suggests a significant preference for story-driven genres, indicating a potential trend in audience desire to watch.
+ 
 ![Topranking](img/Topranking.png)
 
 RUNTIME AGAINST GENRE
+
 In the event that Microsoft ventures into the realm of film production and seeks to determine the optimal movie length, it could consider adopting a standard runtime, such as 107 minutes, as a conservative approach. I  targeted the runtimes for each genre and then finding the average runtime required and used a bar plot to visually present it
+
 ![medianruntime](img/medainruntime.png)
 
 AVERAGE DOMESTIC GROSS FOR A STANDARD MOVIE
+
 I used a boxplot to plot the visual summary of the central tendancy.
 From the boxplot the average average domestic gross was 30,638,100.00
+
 ![domesticgross](img/domesticgross.png)
 
 CORRELATION BETWEEN DOMESTIC GROSS AND PRODUCTION BUDGET
 To check the relationship between domestic gross and prduction profits is used a scatter plot with the line of best fit.
 Does this imply that the more money I put in for making a movie, the more the return?
 the slope is steep and positive which is an indication of a positive correlation between production budget and domestic gross. Higher budgets appear to have higher returns as observed from the few high budgets in the scatter plot.
+
 ![productionvsprofits](img/productionvsprofits.png)
 
 # Conclusions
